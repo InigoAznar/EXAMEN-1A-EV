@@ -1,0 +1,25 @@
+# Este programa sirve para elegir el menor de 10 numeros, pero esta mal hecho porque podia ahorrarme todo el copia y pega si usaba else, pero no tenia tiempo y no se me ocurrio hasta muy tarde
+def programa():
+    num1= float(input("Enter 1 number: "))
+    num2= float(input("Enter 2 number: "))
+    num3= float(input("Enter 3 number: "))
+    num4= float(input("Enter 4 number: "))
+    num5= float(input("Enter 5 number: "))
+    num6= float(input("Enter 6 number: "))
+    num7= float(input("Enter 7 number: "))
+    num8= float(input("Enter 8 number: "))
+    num9= float(input("Enter 9 number: "))
+    num10= float(input("Enter 10 number: "))
+    if(num1 <= num2) and (num1 <= num3) and (num1 <= num4) and (num1 <= num5) and (num1 <= num6) and (num1 <= num7) and (num1 <= num8) and (num1 <= num9) and (num1 <= num10) :
+        x= num1
+    else :
+        if (num2 <= num1) and (num2 <= num3) and (num1 <= num4) and (num1 <= num5) and (num1 <= num6) and (num1 <= num7) and (num1 <= num8) and (num1 <= num9) and (num1 <= num10)  :
+            x= num2
+        if (num3 <= num1) and (num3 <= num2) and (num3 <= num4) and (num3 <= num5) and (num3 <= num6) and (num3 <= num7) and (num3 <= num8) and (num3 <= num9) and (num3 <= num10) :
+            x= num3
+        if (num4 <= num1) and (num4 <= num2) and (num4 <= num4) and (num4 <= num5) and (num4 <= num6) and (num4 <= num7) and (num4 <= num8) and (num4 <= num9) and (num4 <= num10) :
+            x= num4
+
+    print "",x
+
+programa()
